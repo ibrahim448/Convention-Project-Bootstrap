@@ -1,0 +1,26 @@
+/*=======================================Google font link===============================*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+} 
+
+.container{
+  width: 1140px;
+}
+/*===============Header CSS Style Start====================*/
+.nav-link{
+  color: #3E3E3E;
+}
+/*===============Header CSS Style End======================*/
+
+/*===============PRICE CSS Style Start====================*/
+.col-12.col-sm-6.col-lg-4.col-xl-3.price-card {
+  margin-top: -20px;
+}
+
+/*===============PRICE CSS Style End======================*/
+@media only screen and (max-width:575.98px) {
+  .container{
+    width: 100%;
+  }
+}
